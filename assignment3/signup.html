@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .signup-container {
+            padding: 100px 0;
+        }
+
+        .signup-form {
+            background-color: white;
+            border-radius: 5px;
+            padding: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .signup-form input {
+            margin-bottom: 20px;
+        }
+          /* Custom CSS for navbar */
+          .navbar-custom {
+            background-color: white;
+        }
+
+        .signup-btn {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+ <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" style="font-weight: bolder;font-size: 40px;" href="index.html">Astroship</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link signup-btn text-white rounded-lg" href="signup.html">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        
+
+    <div class="container">
+        <div class="row justify-content-center signup-container">
+            <div class="col-md-6">
+                <div class="signup-form">
+                    <h2 class="text-center">Sign Up</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block" style="background-color: black; color: white;">Sign Up</button>
+                        </div>
+                        <p class="text-center mt-3">Already have an account? <a href="login.html">Login</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Footer -->
+  <footer class=" text-center py-3" style="color: gray;">
+    <div class="container">
+        <p>Copyright © 2023 Ashiq. All rights reserved.</p>
+        <p>Made by Ashiq</p>
+    </div>
+</footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

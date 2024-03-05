@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astroship</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!-- Custom CSS -->
+
+   <style>
+        /* Custom CSS for navbar */
+        .navbar-custom {
+            background-color: white;
+        }
+
+        .signup-btn {
+            background-color: black;
+        }
+        .hero-section {
+            background-color: white;
+            padding: 100px 0;
+        }
+
+        .hero-content {
+            color: #6c757d;
+        }
+
+        .hero-btn {
+            border-radius: 20px;
+        }
+
+        .github-btn {
+            border: 2px solid black;
+        }
+
+        .download-btn {
+            border: 2px solid black;
+            color: black;
+        }
+
+        .hero-img {
+            max-width: 100%;
+            height: auto;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+
+        .feature-text {
+            color: #6c757d;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" style="font-weight: bolder;font-size: 40px;" href="index.html">Astroship</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link signup-btn text-white rounded-lg" href="signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1 style="color: black;font-weight: 900;">Marketing website done with Astro</h1>
+                        <p>Astroship is a starter template for startups, marketing websites & landing pages. Built
+                            with Astro.build and TailwindCSS. You can quickly create any website with this
+                            starter.</p>
+                        <a href="#" class="btn btn-dark hero-btn download-btn  text-white" style="background-color: black;"><i
+                                class="fas fa-download text-white" style="background-color: black;"></i> Download for Free</a>
+                        <a href="#" class="btn btn-outline-secondary hero-btn github-btn"><i
+                                class="fab fa-github"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="col-md-6">
+                    <img src="hero.webp" alt="Astroship" class="img-fluid hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Features Section -->
+  <section class="container my-5">
+    <h1 class="text-center mb-4">Everything you need to start a website</h1>
+    <p class="lead text-center mb-5">Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row mb-4">
+                <div class="col-2 text-center">
+                    <i class="fas fa-cube feature-icon"></i>
+                </div>
+                <div class="col-10">
+                    <h3>Bring Your Own Framework</h3>
+                    <p class="feature-text">Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-2 text-center">
+                    <i class="fas fa-code feature-icon"></i>
+                </div>
+                <div class="col-10">
+                    <h3>100% Static HTML, No JS</h3>
+                    <p class="feature-text">Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="row mb-4">
+                <div class="col-2 text-center">
+                    <i class="fas fa-bolt feature-icon"></i>
+                </div>
+                <div class="col-10">
+                    <h3>On-Demand Components</h3>
+                    <p class="feature-text">Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.</p>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-2 text-center">
+                    <i class="fas fa-puzzle-piece feature-icon"></i>
+                </div>
+                <div class="col-10">
+                    <h3>Broad Integration</h3>
+                    <p class="feature-text">Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Technologies Section -->
+<section class="container my-5">
+    <h2 class="text-center mb-4" style="font-weight: 900;">Works with Your Technologies</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <img src="React-icon.svg.png" alt="React" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">React</h4>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="tailwind.png" alt="Tailwind CSS" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">Tailwind CSS</h4>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="Bootstrap_logo.svg.png" alt="Bootstrap" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">Bootstrap</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <img src="versel.png" alt="Vercel" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">Vercel</h4>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="Vue.js_Logo_2.svg.png" alt="Vue.js" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">Vue.js</h4>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="angular.png" alt="Angular" width="200px" class="img-fluid mx-auto d-block">
+            <h4 class="text-center mt-3">Angular</h4>
+        </div>
+    </div>
+</section>
+
+   <!-- Footer -->
+   <footer class=" text-center py-3" style="color: gray;">
+    <div class="container">
+        <p>Copyright © 2023 Ashiq. All rights reserved.</p>
+        <p>Made by Ashiq</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
